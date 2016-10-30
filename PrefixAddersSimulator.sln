@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrefixAddersSimulator", "PrefixAddersSimulator\PrefixAddersSimulator.csproj", "{B7D4307D-1269-4658-A335-537DBCC56979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrefixAddersSimulator.Tests", "PrefixAddersSimulator.Tests\PrefixAddersSimulator.Tests.csproj", "{54A68275-A754-4390-8E21-452999F1605F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrefixAddersSimulator.Library", "PrefixAddersSimulator.Library\PrefixAddersSimulator.Library.csproj", "{6A7D9271-CE16-41DD-BCF8-943CEB4B0002}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7D4307D-1269-4658-A335-537DBCC56979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D4307D-1269-4658-A335-537DBCC56979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D4307D-1269-4658-A335-537DBCC56979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D4307D-1269-4658-A335-537DBCC56979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54A68275-A754-4390-8E21-452999F1605F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A68275-A754-4390-8E21-452999F1605F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A68275-A754-4390-8E21-452999F1605F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A68275-A754-4390-8E21-452999F1605F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7D9271-CE16-41DD-BCF8-943CEB4B0002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7D9271-CE16-41DD-BCF8-943CEB4B0002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7D9271-CE16-41DD-BCF8-943CEB4B0002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7D9271-CE16-41DD-BCF8-943CEB4B0002}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
