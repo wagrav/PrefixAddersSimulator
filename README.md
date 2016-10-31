@@ -79,7 +79,7 @@ The Usage is really simple, just type numbers and get results:
 >    var result = calculator.Calculate(firstNumber, secondNumber);
 
 
-# Unit test
+# Unit tests
 > The library code is covered in 74 % by unit tests.
 
 ---
