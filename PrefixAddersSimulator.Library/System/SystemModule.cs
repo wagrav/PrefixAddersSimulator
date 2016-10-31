@@ -41,6 +41,6 @@
 
     public enum SystemModuleType
     {
-        EntryChip, NeutralChip, CalculatingChip, EndPointChip
+        EntryChip, NeutralChip, CalculatingChip
     }
 }

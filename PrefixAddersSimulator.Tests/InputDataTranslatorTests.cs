@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Linq;
-using NSubstitute.ExceptionExtensions;
 using PrefixAddersSimulator.Library;
 using Shouldly;
 using Xunit;
-using Xunit.Sdk;
 
 namespace PrefixAddersSimulator.Tests
 {

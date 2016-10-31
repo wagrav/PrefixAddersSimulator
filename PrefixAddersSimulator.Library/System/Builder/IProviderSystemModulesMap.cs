@@ -22,7 +22,7 @@ namespace PrefixAddersSimulator.Library.System.Builder
             var map = _mapFileParser.GetModulesTypeMap(mapPath);
 
             var systeModulesMap = new List<List<SystemModule>>();
-            systeModulesMap.ForEach(x=> x = new List<SystemModule>());
+            systeModulesMap.ForEach(x => x = new List<SystemModule>());
 
             for (var i = 0; i < map.Count; i++)
             {

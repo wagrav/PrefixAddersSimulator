@@ -43,6 +43,7 @@
     <Compile Include="LogicOperation\ICalculateModule.cs" />
     <Compile Include="LogicOperation\ICalculatePropagation.cs" />
     <Compile Include="LogicOperation\SystemCalculator.cs" />
+    <Compile Include="PrefixAdderSimulator.cs" />
     <Compile Include="System\Builder\BuildSystemModulesMap.cs" />
     <Compile Include="System\Builder\IBuildSystemModulesMap.cs" />
     <Compile Include="System\Builder\IParseMapFile.cs" />

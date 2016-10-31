@@ -29,8 +29,6 @@ namespace PrefixAddersSimulator.Library.LogicOperation
                 case SystemModuleType.EntryChip:
                     system.SystemMap[x][y].Generation = GetGenerationForEntryChip(system, y);
                     break;
-                case SystemModuleType.EndPointChip:
-                    break;
                 default:
                     throw new ArgumentOutOfRangeException();
             }
@@ -66,8 +64,6 @@ namespace PrefixAddersSimulator.Library.LogicOperation
                     break;
                 case SystemModuleType.EntryChip:
                     system.SystemMap[x][y].Propagation = GetPropagationForEntryChip(system, y);
-                    break;
-                case SystemModuleType.EndPointChip:
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();
